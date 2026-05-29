@@ -1,0 +1,25 @@
+# --- Identity ---
+id: "222dc797-2f5f-4e4b-bc12-a781a4ac79d6"
+name: "generate-visual-spec"
+display_name: "Generate Visual Specification"
+description: "Specifies chart types, axes, and data mappings for data visualisations"
+version: "1.0.0"
+engine: ">=0.1.0"
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+licence: "MIT"
+repository: "https://github.com/skrpts/hub-shared-generate-visual-spec"
+category: "shared"
+tags:
+  - "shared"
+  - "prompt"
+contents:
+  skills: 0
+  prompts: 1
+  workflows: 0
+  services: 0
+  sources: 0
+  documents: 0
+  assets: 0
+  total: 1
