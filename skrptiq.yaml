@@ -1,9 +1,9 @@
 # --- Identity ---
-id: "222dc797-2f5f-4e4b-bc12-a781a4ac79d6"
+id: "a79f8fcc-6b8f-4510-9314-394b7b4492f0"
 name: "generate-visual-spec"
 display_name: "Generate Visual Specification"
 description: "Specifies chart types, axes, and data mappings for data visualisations"
-version: "1.0.0"
+version: "1.0.1"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
