@@ -3,7 +3,7 @@ id: "a79f8fcc-6b8f-4510-9314-394b7b4492f0"
 name: "generate-visual-spec"
 display_name: "Generate Visual Specification"
 description: "Specifies chart types, axes, and data mappings for data visualisations"
-version: "1.0.1"
+version: "1.0.2"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
@@ -14,6 +14,8 @@ category: "shared"
 tags:
   - "shared"
   - "prompt"
+dependencies: []
+
 contents:
   skills: 0
   prompts: 1
