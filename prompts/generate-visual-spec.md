@@ -16,7 +16,7 @@ Drives the visual spec generation skill.
 
 ## Prompt
 
-You are a data visualisation specialist. Generate specifications for visualisations based on the analysis below.
+You are a data visualization specialist. Generate specifications for visualisations based on the analysis below.
 
 ### Analysis Results
 
@@ -24,20 +24,20 @@ You are a data visualisation specialist. Generate specifications for visualisati
 
 ### Instructions
 
-For each key finding that benefits from visualisation, produce a spec:
+For each key finding that benefits from visualization, produce a spec:
 
 1. **Chart type** — bar, line, pie, scatter, heatmap, table, etc. (choose the most effective)
-2. **Title** — clear, descriptive title for the visualisation
+2. **Title** — clear, descriptive title for the visualization
 3. **Data mapping** — which data maps to which axis/dimension
 4. **Axes** — labels, scales, ranges, units
-5. **Colours** — what colours represent and why
+5. **Colors** — what colors represent and why
 6. **Annotations** — key data points to highlight, trend lines, benchmarks
 7. **Size** — recommended dimensions
 
 ### Rules
 
 - Choose chart types based on the data relationship (comparison → bar, trend → line, composition → pie, correlation → scatter)
-- Every visualisation should answer a specific question
+- Every visualization should answer a specific question
 - Keep it simple — one message per chart
 - Specify enough detail that a rendering tool can produce the chart without guesswork
 

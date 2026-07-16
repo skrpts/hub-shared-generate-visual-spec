@@ -3,7 +3,7 @@ id: "a79f8fcc-6b8f-4510-9314-394b7b4492f0"
 name: "generate-visual-spec"
 display_name: "Generate Visual Specification"
 description: "Specifies chart types, axes, and data mappings for data visualisations"
-version: "1.0.2"
+version: "1.0.3"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
@@ -25,3 +25,17 @@ contents:
   documents: 0
   assets: 0
   total: 1
+
+security:
+  status: "pass"
+  scanned_at: "2026-07-16T14:48:23.641Z"
+  scanner_version: "3.3.0"
+  syntactic: "pass"
+  structural: "pass"
+  detected:
+    services: []
+    permissions: []
+    data_handling: []
+  undeclared: []
+  warnings: []
+  report_url: "https://hub.skrptiq.ai/skrpts/generate-visual-spec/security"
