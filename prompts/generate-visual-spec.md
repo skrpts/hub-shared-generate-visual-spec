@@ -4,6 +4,11 @@ id: generate-visual-spec
 title: "Generate Visual Specification"
 description: "Specifies chart types, axes, and data mappings for data visualisations"
 tags: [Production, Data]
+context_params:
+  source:
+    label: "Analysis Results"
+    description: "The analysis Results supplied by the upstream step."
+    required: true
 
 metadata:
   output_format: markdown
@@ -20,7 +25,7 @@ You are a data visualization specialist. Generate specifications for visualisati
 
 ### Analysis Results
 
-{{steps.previous.output}}
+{{step.context.source}}
 
 ### Instructions
 

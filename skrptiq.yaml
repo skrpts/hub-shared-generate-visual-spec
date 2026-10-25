@@ -3,7 +3,7 @@ id: "a79f8fcc-6b8f-4510-9314-394b7b4492f0"
 name: "generate-visual-spec"
 display_name: "Generate Visual Specification"
 description: "Specifies chart types, axes, and data mappings for data visualisations"
-version: "1.0.3"
+version: "1.0.4"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
@@ -28,7 +28,7 @@ contents:
 
 security:
   status: "pass"
-  scanned_at: "2026-07-16T14:48:23.641Z"
+  scanned_at: "2026-10-25T16:47:24.662Z"
   scanner_version: "3.3.0"
   syntactic: "pass"
   structural: "pass"
